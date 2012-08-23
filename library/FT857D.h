@@ -2,9 +2,9 @@
   FT857D.h		Arduino library for controlling a Yaesu FT857D
 			radio via CAT commands.
 
- Version:  0.1
+ Version:  0.1a
  Created:  2012.08.16
-Released:  2012.08.17
+Released:  2012.08.23
   Author:  James Buck, VE3BUX
      Web:  http://www.ve3bux.com
 
@@ -17,6 +17,12 @@ All CAT commands to the radio should be sent as 5-byte blocks. The commands are 
 	{P1,P2,P3,P4,CMD}
 		where P1-P4 are parameters
 		and   CMD is the command code (ie. set mode)
+
+----Changes------------------------------------------------------
+
+0.1a:
+    -corrected indef
+      -in development, was CAT_h replaced with current name FT857D_h
 
 ----Lock On / Off------------------------------------------------
 	{0x00,0x00,0x00,0x00,CAT_LOCK_ON}
@@ -230,8 +236,8 @@ All CAT commands to the radio should be sent as 5-byte blocks. The commands are 
 ----------------------------------------------------------------
 */
 
-#ifndef CAT_h
-#define CAT_h
+#ifndef FT857D_h
+#define FT857D_h
 
 #include <Arduino.h>
 #include <../SoftwareSerial/SoftwareSerial.h>
