@@ -2,9 +2,9 @@
   FT857D.cpp	Arduino library for controlling a Yaesu FT857D
 			radio via CAT commands.
  
- Version:  0.1
+ Version:  0.1a
  Created:  2012.08.16
-Released:  2012.08.17
+Released:  2012.08.23
   Author:  James Buck, VE3BUX
      Web:  http://www.ve3bux.com
 
