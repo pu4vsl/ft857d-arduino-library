@@ -1,0 +1,3 @@
+This Arduino library allows the Arduino to control various functions of a Yaesu radio through the use of “Computer Aided Transceiver” (CAT) functions. Although the CAT command byte definitions are aimed at a Yaesu FT-857D, many of the functions should work along the FT-8\*7 platform with little or no need for modification.
+
+To download the library, select "source" above and then "browse" or, follow this link: http://code.google.com/p/ft857d-arduino-library/source/browse/library
